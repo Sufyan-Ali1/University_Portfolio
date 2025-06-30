@@ -1,0 +1,80 @@
+Output
+
+
+Question 2
+
+speak() called.
+ Woof
+ speak() called.
+ Woof
+//--------------------
+ speak() called.
+ Woof
+ speak() called.
+ speak() called.
+//-------------------
+speak() called.
+ Woof
+ Woof
+ speak()
+//--------------
+Error	1	error C2440: 'initializing' : cannot convert from 'Animal *' to 'Dog *'	
+c:\users\fast\documents\visual studio 2013\projects\project4\project4\source.cpp	22	1	Project4
+//--------------
+Question 3
+speak()
+
+//---------
+Woof
+
+//----------
+Question 4
+Meow
+Woof
+
+Question  5
+Press 1 for a Dog and 2 for a Cat.
+Dog added at position 0
+
+Press 1 for a Dog and 2 for a Cat.
+Cat added at position 1
+
+Press 1 for a Dog and 2 for a Cat.
+Dog added at position 2
+
+Press 1 for a Dog and 2 for a Cat.
+Cat added at position 3
+
+Press 1 for a Dog and 2 for a Cat.
+Dog added at position 4
+
+
+Question 6:
+
+
+Press 1 for a Dog and 2 for a Cat.
+Dog added at position 0
+
+~Animal() called.
+Press 1 for a Dog and 2 for a Cat.
+Cat added at position 1
+
+~Animal() called.
+Press 1 for a Dog and 2 for a Cat.
+Dog added at position 2
+
+~Animal() called.
+Press 1 for a Dog and 2 for a Cat.
+Cat added at position 3
+
+~Animal() called.
+Press 1 for a Dog and 2 for a Cat.
+Dog added at position 4
+
+~Animal() called.
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+#include<iostream>
+using namespace std;
+//Function for insert number
+int Insert(int a[], int b) { //b--> Number of elements in array
+	int nmbrs;
+	cout << "How many numbers you want to insert\n";
+	cin >> nmbrs;
+	for (int j = 1; j <= nmbrs;j++) {
+		cout << "Inserting Number\n";
+		int num;
+		cin >> num;
+		
+		if (b == 0) {
+			a[0] = num;
+			b++;
+		}
+		else if (b == 20) {
+			cout << "Your array is already full\n";
+		}
+		else {
+			int index = -1;
+			for (int i = 0; i < b; i++) {
+				if (a[i] > num) {
+					int prev = a[i];
+					for ( index=i; index < b; index++){
+						int next = a[index + 1];
+							a[index + 1] = prev;
+							prev = next;
+					}
+						a[i] = num;
+						b++;
+						break;
+				}				 
+		    }
+			if (index == -1) {
+				a[b] = num;
+				b++;
+			}
+		}
+	}
+	return b;
+}
+int Delete(int a[],int b) {
+	cout << "Your array is ";
+	for (int i = 0; i < b; i++) {
+		cout << a[i] << " ";
+	}
+	cout << endl;
+	if (b == 0) {
+		cout << "Your array is already entrt\n";
+	}
+	else {
+		cout << "Which number you want to delete from array\n";
+		int num;
+		cin >> num;
+		cout << "For delete all entries of " << num << " Enter(A)\nFor delete some entries of " << num << " Enter(S) \n";
+		char l;
+		cin >> l;
+		if (l == 'A') {
+			for (int i = 0; i < b; i++) {
+
+
+				if (a[i] == num) {
+					while (a[i] == num) {
+						for (int j = i; j < b; j++) {
+							a[j] = a[j + 1];
+
+						}
+						a[b - 1] = 0;
+						b--;
+					}
+				}
+			}
+		}
+		else if (l == 'S') {
+			cout << "How many entries you want to delete\n";
+			int entry;
+			cin >> entry;
+			for (int i = 0; i < b; i++) {
+				if (a[i] == num) {
+					while (a[i] == num && entry > 0) {
+						for (int j = i; j < b; j++) {
+							a[j] = a[j + 1];
+
+						}
+						a[b - 1] = 0;
+						b--;
+						entry--;
+					}
+				}
+			}
+
+		}
+	}
+	return b;
+}
+int update(int a[],int b) {
+	cout << "Your array is ";
+	for (int i = 0; i < b; i++) {
+		cout << a[i] << " ";
+	}
+	cout << endl;
+		cout << "Which number you want to update from array\n";
+		int num;
+		cin >> num;
+		cout << "Enter update value\n";
+		int num1;
+		cin >> num1;
+		cout << "For update all entries of " << num << " Enter(A)\nFor update some entries of " << num << " Enter(S) \n";
+		char l;
+		cin >> l;
+		if (l == 'A') {
+			for (int i = 0; i < b; i++) {
+
+				if (a[i] == num) {
+					a[i] = num1;
+				}
+			}
+		}
+		else if (l == 'S') {
+			cout << "How many entries you want to update\n";
+			int entry;
+			cin >> entry;
+			for (int i = 0; i < b; i++) {
+				
+					while (a[i] == num && entry > 0) {
+						a[i] = num1;
+						entry--;
+					}
+			}
+
+		}
+	
+	return b;
+
+}
+void main() {
+	int arr[20];
+	int s = 0;
+	bool istrue = false;
+	while (!istrue) {
+		cout << "select fucntion\n";
+		cout << "Update(U)\nDelete(D)\nInsert(I)\n";
+		char a;
+
+		cin >> a;
+
+		if (a == 'U') {
+			s=update(arr,s);
+		}
+		
+		else if (a == 'D') {
+			s=Delete(arr,s);
+		}
+
+		else if (a == 'I') {
+			s = Insert(arr, s);
+		}
+		cout << "For performing more operation(C)\nElse(Q)\n ";
+		char b;
+		cin >> b;
+		if (b == 'Q')
+			istrue = true;
+		
+	}
+	cout << s << endl;
+	for (int i = 0; i < s; i++) {
+		cout<<arr[i]<<" ";
+	}
+	
+}

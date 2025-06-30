@@ -1,0 +1,23 @@
+1/7607/Ghulam,Mustafa/23,5,1996/26/3/HTV,Rikshaw,Motorcar/3.9/5/32000/1.
+1/3000/Ajmal,Ali/3,2,1980/42/2/HTV,Tracktor/4.8/7/40000/1.
+1/1019/Rayyan,Ali/3,7,1999/22/1/Motorbike/2.9/2/20000/1.
+1/2091/Amir,Anwer/29,1,1998/24/2/Motorbike,LTV/4.7/1/25000/1.
+1/3991/Sajjad,Ali/4,3,2001/21/1/Rikshaw/2.8/1/18000/1.
+1/1003/Zulfiqar,Ali/3,4,1978/45/5/Motorcar,Rikshaw,LTV,HTV,Tracktor/4.6/20/50000/1.
+1/7019/Suleman,Shaikh/1,9,1991/21/2/PSV,LTV/3.6/3/30000/1.
+1/3467/Ahsan,Ali/3,2,1995/27/3/HTV,LTV,Rikshaw/0/0/12000/1.
+0/7019/1/Intercity/3/3467/3325/12,5,2022/10:6:45/45/1/120/3.7/4/FAST NUCES/Shahdra.
+0/7607/1/Intracity/2/6570/9870/21,5,2022/13:6:44/1400/1/150/3.9/3.5/Lahore/Karachi.
+0/3000/2/Furniture/1000/9820/6027/21,5,2022/20:5:46/1000/0/160/Lahore/Sanghar.
+0/7607/1/Intracity/1/3098/3325/21,2,2022/11:10:45/180/1/120/3.6/4/Hyderabad/Karachi.
+0/3000/2/Woods/300/3098/1987/1,1,2022/1:11:39/19/1/130/Tilak Incline/Rani Bag.
+0/1003/1/Intercity/3/7645/3985/12,3,2022/19:19:45/30/1/125/3.7/4.1/Jamshoro/Gul Centre.
+0/3467/2/Coal/3000/4563/2250/19,5,2022/15:59:45/109/1/120/Hyderabad/Sanghar.
+0/1003/2/Clothes/7/4563/3325/11,4,2022/14:7:45/40/1/123/Johar Town/Faisal Town.
+0/1019/1/Intercity/2/6570/9870/23,5,2022/13:9:44/20/0/120/3.4/3.5/Saddar/Autobhan.
+0/3991/2/Furniture/1000/9820/6027/21,5,2022/20:5:46/1000/0/160/Lahore/Sanghar.
+0/7019/1/Intercity/4/4006/1987/19,4,2022/2:4:46/10/1/110/2.7/4.5/Jinnah/Railway.
+0/1003/1/Intracity/1/3098/3325/21,2,2022/11:10:45/180/1/120/3.6/4/Hyderabad/Karachi.
+0/3000/2/Glass/300/3098/3125/1,1,2022/1:11:39/19/1/130/Tilak Incline/Rani Bag.
+0/1019/1/Intercity/3/7645/3985/12,3,2022/19:19:45/30/1/125/3.7/4.1/Jamshoro/Gul Centre.
+0/1019/2/Mobile Assecories/350/4563/9870/19,5,2022/15:59:45/109/1/120/Hyderabad/Sanghar.

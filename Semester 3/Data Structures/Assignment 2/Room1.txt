@@ -1,0 +1,13 @@
+11,27.
+0,6.
+X X X   X   X X X   X X X X/
+X       X D     X   P     X/
+X X   X X X X   X X X X   X/
+X       X D         X     X/
+X   X   X X X X X   X   X X/
+X D X   X   X   X         X/
+X   X       X   X   X X   X/
+X X X X X   X   X   P X   X/
+X           X   X X X X   X/
+X P X X X                 X/
+X X X X X X X X X X X X X X/
